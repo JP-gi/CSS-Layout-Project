@@ -1,0 +1,134 @@
+/* Reset some default styles */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+img.logo-docplanner {
+    height: 33px;
+    padding: 1px;
+}
+
+a.is-current {
+    color: #00B39B;
+}
+
+a.nav-top {
+    color: #ababab;
+}
+
+body {
+    font-family: Arial, sans-serif;
+}
+
+/* Header styles */
+header {
+    background-color: #fff;
+    border-bottom: 1px solid #ddd;
+}
+
+header .container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 1rem;
+}
+
+header .logo {
+    font-size: 1.5rem;
+    color: #333;
+    text-decoration: none;
+}
+
+nav ul {
+    display: flex;
+    list-style: none;
+}
+
+nav ul li {
+    margin: 0 1rem;
+}
+
+nav ul li a {
+    text-decoration: none;
+    color: #333;
+}
+
+/* Features Section styles */
+.features {
+    padding: 2rem 1rem;
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(200px, 1fr));
+    gap: 1rem;
+}
+
+.features .feature-item {
+    background: #f8f9fa;
+    padding: 1rem;
+    border-radius: 0.25rem;
+    text-align: center;
+}
+
+/* Footer styles */
+footer {
+    background-color: #f1f1f1;
+    text-align: center;
+    padding: 1rem;
+    height: 70px;
+}
+h1 {
+    text-align: center;
+    color: #00B39B;
+    margin: 34px;
+    font-family: Arial, sans-serif;
+    font-weight: 10;
+}
+div.lead__logo {
+    text-align: center;
+    padding: 20px;
+    margin: 10px;
+}
+
+div.paragraphs {
+    color: #747474;
+    display: flex;
+    gap: 20px;
+}
+
+p.flex-item {
+    flex: 1;
+    margin: 12px;
+    padding: 30px;
+    width: 200px;
+}
+
+div.boxbox {
+    display: flex;
+    justify-content: space-between;
+    gap: 15px;
+}
+
+div.col-3_fade-elements__visible {
+    flex: 1;
+    height: 345px;
+    justify-content: center;
+    display: flex;
+    align-items: center;
+    border-radius: 8px;
+    border: 2px solid #00CCB1;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+div.services__item_services__item--marketplace {
+    background-color: #00CCB1;
+    border: 2px solid #00CCB1;
+
+}
+
+div.services__item_services__item--saas {
+    background-color: #3D83DF;
+}
+
+div.services__item_services__item--clinics {
+    background-color: #1B2734;
+}
